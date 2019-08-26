@@ -22,6 +22,51 @@ Cabe destacar que el siguiente proceso puede variar por los diferentes modelos d
 Posteriormente ya que hayamos iniciado con nuestro usuario y contraseña de nuestro internet, buscaremos el apartado que se llama NAT, para configurar los puertos correspondientes. 
 <p align="center"><img src="https://github.com/AdrMXR/GEN-SSH/blob/master/screenshot-2.png" /></p>
 
+Una vez en este apartado, seleccionaremos la IP de nuestro servidor local, el puerto que configuramos en GEN-SSH al crear el servidor y escogeremos un puerto publico cualquiera, puede ser el mismo. Con ese puerto y con nuestra IP publica vamos a acceder publicamente a nuestro servidor ssh.
+
+## ¿Cómo acceder mediante ssh?
+Local:
+```bash
+ssh -p [PUERTO LAN] USERNAME@localhost  
+```
+```bash
+Publico:
+ssh -p  [PUERTO PUBLICO] USERNAME@ip-publica 
+```
+Otro punto que cabe destacar es que para acceder a nuestro servidor ssh publicamente por obvias razones es necesario conectarse desde fuera de nuestra red local, ya que si lo intentamos desde nuestra red nos marcará un error. Podemos acceder mediante datos de nuestro móvil con la app de JuiceSSH para comprobar los resultados.
+
+## Requisitos 
+* Un sistema Linux en funcionamiento, cualquier distribución basada en debian es compatible con la herramienta.
+* La herramienta fue escrita en python2.7, por lo tanto se necesita una versión inferior a la 3 que es la más actualizada hasta ahora ya que de lo contrario nos marcará un error al ejecutar la herramienta.
+
+## Instalación 
+```bash
+sudo apt install python2.7 python-pip  
+```
+```bash
+Publico:
+git clone https://github.com/AdrMXR/GEN-SSH.git
+```
+```bash
+cd GEN-SSH 
+```
+```bash
+pip install -r requirements.txt 
+```
+```bash
+python gen-ssh.py 
+```
+## Creditos
+Creador de la herramienta: Adrian Guillermo
+
+Facebook: https://www.facebook.com/Adrian.Guillermo.22
+
+Instagram: https://www.instagram.com/adrian.guillermo22/
+
+YouTube: https://www.youtube.com/channel/UCqEtxJKbIghx6lyymrjfvnA?view_as=subscriber
+
+
+
 
 
 
