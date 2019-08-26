@@ -44,7 +44,6 @@ Otro punto que cabe destacar es que para acceder a nuestro servidor ssh publicam
 sudo apt install python2.7 python-pip  
 ```
 ```bash
-Publico:
 git clone https://github.com/AdrMXR/GEN-SSH.git
 ```
 ```bash
