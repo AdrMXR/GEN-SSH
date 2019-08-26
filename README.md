@@ -10,7 +10,7 @@ GEN-SSH consta de 2 opciones.
 
 * SSH publico: Servidor ssh que nos permite conectarnos en cualquier parte del mundo con acceso a internet. Para poder generar un ssh publico es necesario configurar primero un ssh local, ya que es necesario configurar los puertos correspondientes en la configuración de nuestro router para que las peticiones publicas sean aceptadas y redirigidas a nuestro ssh local. 
 
-GEN-SSH nos cuestionará primero si ya contamos con un servidor ssh local, en caso de que no sea así automaticamente comenzará a instalarse y a poner en marcha los pasos anteriores. Al finalizar la instalación nos volverá a cuestionar la misma pregunta y hasta que la respuesta no sea positiva el proceso se repetirá como un bucle. Ya que la respuesta sea positiva nos solicitará como primer paso nuestro gateway (puerta de enlace para acceder a la configuración de nuestro router), si no sabemos cual es nuestro gateway podemos obtenerlo con el siguiente comando: 
+GEN-SSH nos cuestionará primero si ya contamos con un servidor ssh local, en caso de que no sea así automaticamente comenzará a instalarse y a poner en marcha los pasos anteriores. Al finalizar la instalación nos volverá a cuestionar la misma pregunta y mientras la respuesta no sea positiva el proceso se repetirá como un bucle. Ya que la respuesta sea positiva nos solicitará como primer paso nuestro gateway (puerta de enlace para acceder a la configuración de nuestro router), si no sabemos cual es nuestro gateway podemos obtenerlo con el siguiente comando: 
 ```bash
 route -n 
 ```
