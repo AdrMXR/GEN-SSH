@@ -29,8 +29,8 @@ Local:
 ```bash
 ssh -p [PUERTO LAN] USERNAME@localhost  
 ```
-```bash
 Publico:
+```bash
 ssh -p  [PUERTO PUBLICO] USERNAME@ip-publica 
 ```
 Otro punto que cabe destacar es que para acceder a nuestro servidor ssh publicamente por obvias razones es necesario conectarse desde fuera de nuestra red local, ya que si lo intentamos desde nuestra red nos marcará un error. Podemos acceder mediante datos de nuestro móvil con la app de JuiceSSH para comprobar los resultados.
