@@ -15,7 +15,7 @@ GEN-SSH nos cuestionará primero si ya contamos con un servidor ssh local, en ca
 route -n 
 ```
 Posteriormente, se nos abrirá automaticamente el login de nuestro router. 
-<p align="center"><img src="https://github.com/AdrMXR/GEN-SSH/blob/master/Screenshot1.png" /></p>
+<p align="center"><img src="https://github.com/AdrMXR/GEN-SSH/blob/master/screenshot-1.png" /></p>
 
 Cabe destacar que el siguiente proceso puede variar por los diferentes modelos de routers, si tienen problemas o se traban en algun paso les recomiendo buscar en internet algún manual o tutorial para abrir puertos en su determinado router. 
 
@@ -55,6 +55,10 @@ pip install -r requirements.txt
 ```bash
 python gen-ssh.py 
 ```
+
+## Screenshot de la herramienta
+<p align="center"><img src="https://github.com/AdrMXR/GEN-SSH/blob/master/screenshot-3.png" /></p>
+
 ## Creditos
 Creador de la herramienta: Adrian Guillermo
 
