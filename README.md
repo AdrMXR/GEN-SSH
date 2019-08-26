@@ -6,7 +6,7 @@ SSH es un protocolo de administración remota que nos permite controlar uno o va
 ## ¿Cómo funciona?
 GEN-SSH consta de 2 opciones. 
 
-* SSH local: Servidor ssh que solo nos permite conectarnos en nuestra propia red. Al seleccionar esta opción nos solicitarán un usuario y contraseña que serán con los que iniciaremos en nuestro servidor ssh. También nos solicitará el puerto en el que queremos que corra nuestro servidor, por default esta el puerto 23 pero por cuestiones de seguridad es recomendable escoger un puerto diferente para evitar cierto tipo de ataques hechos por hackers. Al final se los solicitará si deseamos acceder a nuestro servidor o no.
+* SSH local: Servidor ssh que solo nos permite conectarnos en nuestra propia red. Al seleccionar esta opción nos solicitarán un usuario y contraseña que serán con los que iniciaremos en nuestro servidor ssh. También nos solicitará el puerto en el que queremos que corra nuestro servidor, por default esta el puerto 23 pero por cuestiones de seguridad es recomendable escoger un puerto diferente para evitar cierto tipo de ataques hechos por hackers. Al final se nos solicitará si deseamos acceder a nuestro servidor o no.
 
 * SSH publico: Servidor ssh que nos permite conectarnos en cualquier parte del mundo con acceso a internet. Para poder generar un ssh publico es necesario configurar primero un ssh local, ya que es necesario configurar los puertos correspondientes en la configuración de nuestro router para que las peticiones publicas sean aceptadas y redirigidas a nuestro ssh local. 
 
