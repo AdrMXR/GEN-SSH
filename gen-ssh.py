@@ -1,6 +1,6 @@
 #/usr/bin/python
 # -*- coding: utf-8 -*-
-#Copyright 2019 ssh-priv 
+#Copyright 2019 gen-ssh 
 #Written by: Adrian Guillermo
 #Facebook: Adrian Guillero
 #Github: https://www.github.com/AdrMXR
@@ -59,8 +59,8 @@ def private():
 
 		if raw_input("¿Desea acceder a su servidor ssh? (y/n)\n--> ").upper() != "Y":
 			print("GRACIAS POR UTILIZAR GEN SSH.")
+			exit(0)
 		os.system('ssh -p {0} {1}@localhost'.format(port, user))
-		exit(0)
 
 	print("Configurando puerto...")
 	time.sleep(3)
